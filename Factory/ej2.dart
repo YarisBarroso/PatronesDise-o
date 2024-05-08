@@ -6,7 +6,7 @@ void main() {
 
 class Fabrica {
   Bicicleta tipoFactory(String tipo) {
-    if (tipo == 'deportiva') {
+    if (tipo == ' deportiva ') {
       return Deportiva();
     } else if (tipo == 'generica') {
       return Generica();
