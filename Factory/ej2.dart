@@ -1,6 +1,4 @@
-void main() {
-
-
+void main() {}
 
 class Fabrica {
   Bicicleta tipoFactory(String tipo) {
