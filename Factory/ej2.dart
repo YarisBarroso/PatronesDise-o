@@ -4,9 +4,10 @@ class Fabrica {
       return Deportiva();
     } else if (tipo == 'generica') {
       return Generica();
-    } else if (type == ' infantil ') {
+    } else if (tipo == ' infantil ') {
       return Infantil();
-    }
+    }else {
+      throw Exception(' Se desconoce el tipo de bicicleta ');
   }
 }
 
