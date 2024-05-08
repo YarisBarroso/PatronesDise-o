@@ -30,7 +30,7 @@ class Infantil implements Bicicleta {
 
 class TiposFactory {
   Bicicleta tipoFactory(String type) {
-    if (type == 'deportiva') {
+    if (type == ' deportiva') {
       return Deportiva();
       } else if (type == 'generica') {
       return Generica();
