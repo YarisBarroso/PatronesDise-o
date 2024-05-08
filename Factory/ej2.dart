@@ -33,3 +33,4 @@ class Infantil implements Bicicleta{
   @override
   void pedaliar(){
     print('Bicicleta infantil en funcion');
+    
