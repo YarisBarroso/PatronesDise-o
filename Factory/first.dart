@@ -33,3 +33,4 @@ class TiposFactory {
                return Infantil(); 
                   } else { 
                       throw Exception('Se desconoce el tipo de bicicleta'); 
+                      
