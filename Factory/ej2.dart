@@ -6,8 +6,9 @@ class Fabrica {
       return Generica();
     } else if (tipo == ' infantil ') {
       return Infantil();
-    }else {
+    } else {
       throw Exception(' Se desconoce el tipo de bicicleta ');
+    }
   }
 }
 
