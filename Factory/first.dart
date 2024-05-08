@@ -22,3 +22,5 @@ class Infantil implements Bicicleta {
     print('Bicicleta infantil en funcion');
   }
 }
+
+class TiposFactory {
