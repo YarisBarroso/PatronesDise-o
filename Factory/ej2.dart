@@ -12,4 +12,4 @@ class Deportiva implements Bicicleta {
 class Generica implements Bicicleta {
   @override
   void pedaliar(){
-    
+     print('Bicicleta infantil en funcion');
