@@ -9,6 +9,7 @@ class Fabrica {
           } else if (tipo == 'generica') {
             return Generica();
             }else{
+              return Infantil();
 
 abstract class Bicicleta {
   void pedaliar();
