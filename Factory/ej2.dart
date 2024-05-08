@@ -5,6 +5,7 @@
 class Fabrica {
    Bicicleta tipoFactory(String tipo) {
     if (tipo == 'deportiva') {
+        return Deportiva();
 
 abstract class Bicicleta {
   void pedaliar();
