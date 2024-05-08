@@ -8,3 +8,5 @@ class Deportiva implements Bicicleta {
     print('Bicicleta deportiva en funcion');
   }
 }
+
+class Generica implements Bicicleta
