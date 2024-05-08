@@ -1,4 +1,4 @@
-
+class Fabrica {
 
 abstract class Bicicleta {
   void pedaliar();
