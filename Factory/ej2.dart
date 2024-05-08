@@ -3,7 +3,8 @@
 
 
 class Fabrica {
-  
+   Bicicleta tipoFactory(String tipo) {
+
 
 abstract class Bicicleta {
   void pedaliar();
