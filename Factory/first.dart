@@ -1,5 +1,5 @@
 void main() {
-  
+  .tipoFactory('Deportiva');
 }
 
 abstract class Bicicleta {
