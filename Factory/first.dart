@@ -1,5 +1,5 @@
 void main() {
-  var factory = TiposFactory().tipoFactory('Deportiva');
+  var factory = TiposFactory().tipoFactory(' Deportiva ');
    factory.pedaliar();
 }
 
