@@ -25,3 +25,4 @@ class Infantil implements Bicicleta {
 
 class TiposFactory {
    Bicicleta tipoFactory(String type) {
+     Bicicleta tipoFactory(String type) {
