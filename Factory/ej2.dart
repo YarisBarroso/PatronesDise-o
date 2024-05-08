@@ -8,7 +8,7 @@ class Fabrica {
   Bicicleta tipoFactory(String tipo) {
     if (tipo == ' deportiva ') {
       return Deportiva();
-    } else if (tipo == 'generica') {
+    } else if (tipo == ' generica') {
       return Generica();
     } else if (tipo == ' infantil ') {
       return Infantil();
