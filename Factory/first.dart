@@ -33,7 +33,7 @@ class TiposFactory {
       return Deportiva();
     } else if (type == ' generica') {
       return Generica();
-    }else if (type == 'infantil') {
+    }else if (type == 'infantil ') {
       return Infantil();
     } else {
       throw Exception('Se desconoce el tipo de bicicleta');
