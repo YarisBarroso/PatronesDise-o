@@ -1,1 +1,2 @@
-abstract class Bicicleta 
+abstract class Bicicleta  {
+  void pedaliar();
