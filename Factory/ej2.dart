@@ -27,3 +27,5 @@ class Generica implements Bicicleta {
     print('Bicicleta infantil en funcion');
   }
 }
+
+
