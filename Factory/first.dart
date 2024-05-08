@@ -15,3 +15,5 @@ class Generica implements Bicicleta {
     print('Bicicleta generica en funcion');
   }
 }
+
+class Infantil implements Bicicleta{
