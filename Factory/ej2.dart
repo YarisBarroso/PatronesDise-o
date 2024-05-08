@@ -1,17 +1,14 @@
-
-
-
-
 class Fabrica {
-   Bicicleta tipoFactory(String tipo) {
+  Bicicleta tipoFactory(String tipo) {
     if (tipo == 'deportiva') {
-        return Deportiva();
-          } else if (tipo == 'generica') {
-            return Generica();
-            }else{
-              return Infantil();
-            }
-   }
+      return Deportiva();
+    } else if (tipo == 'generica') {
+      return Generica();
+    } else {
+      return Infantil();
+    }
+  }
+}
 
 abstract class Bicicleta {
   void pedaliar();
