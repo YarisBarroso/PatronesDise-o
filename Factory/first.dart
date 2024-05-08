@@ -30,4 +30,5 @@ class TiposFactory {
         return Deportiva(); 
          return Generica(); 
           }else if (type == 'infantil') { 
-               return Infantil();
+               return Infantil(); 
+               
