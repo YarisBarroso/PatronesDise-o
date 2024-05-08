@@ -24,15 +24,17 @@ class Infantil implements Bicicleta {
 }
 
 class TiposFactory {
-   Bicicleta tipoFactory(String type) {
-     Bicicleta tipoFactory(String type) {
-       return Deportiva(); 
-        return Deportiva(); 
-         return Generica(); 
-          } else if (type == 'infantil') { 
-               return Infantil(); 
-                  } else { 
-                      throw Exception('Se desconoce el tipo de bicicleta'); 
-                  }
-   }
+  Bicicleta tipoFactory(String type) {
+    Bicicleta tipoFactory(String type) {
+      if (type == 'deportiva') {
+        return Deportiva();
+        return Deportiva();
+        return Generica();
+      } else if (type == 'infantil') {
+        return Infantil();
+      } else {
+        throw Exception('Se desconoce el tipo de bicicleta');
+      }
+    }
+  }
 }
