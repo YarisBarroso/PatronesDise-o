@@ -1,4 +1,4 @@
-
+void main() {
 
 abstract class Bicicleta {
   void pedaliar();
