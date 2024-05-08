@@ -31,4 +31,4 @@ class TiposFactory {
          return Generica(); 
           }else if (type == 'infantil') { 
                return Infantil(); 
-                  } else {
+                  } else { 
