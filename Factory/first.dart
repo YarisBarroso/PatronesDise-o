@@ -10,7 +10,7 @@ abstract class Bicicleta {
 class Deportiva implements Bicicleta {
   @override
   void pedaliar() {
-    print('Bicicleta deportiva en funcion');
+    print(' Bicicleta deportiva en funcion');
   }
 }
 
