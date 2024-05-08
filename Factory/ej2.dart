@@ -11,6 +11,7 @@ class Fabrica {
             }else{
               return Infantil();
             }
+   }
 
 abstract class Bicicleta {
   void pedaliar();
