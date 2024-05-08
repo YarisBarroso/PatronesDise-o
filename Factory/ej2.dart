@@ -7,6 +7,7 @@ class Fabrica {
     if (tipo == 'deportiva') {
         return Deportiva();
           } else if (tipo == 'generica') {
+            return Generica();
 
 abstract class Bicicleta {
   void pedaliar();
