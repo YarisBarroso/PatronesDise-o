@@ -35,3 +35,4 @@ class TiposFactory {
                       throw Exception('Se desconoce el tipo de bicicleta'); 
                   }
    }
+}
