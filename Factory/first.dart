@@ -1,6 +1,6 @@
 void main() {
   var factory = TiposFactory().tipoFactory('Deportiva');
-  
+   factory.pedaliar();
 }
 
 abstract class Bicicleta {
