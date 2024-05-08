@@ -32,7 +32,7 @@ class TiposFactory {
   Bicicleta tipoFactory(String type) {
     if (type == ' deportiva ') {
       return Deportiva();
-      } else if (type == 'generica') {
+      } else if (type == ' generica') {
       return Generica();
     } else if (type == 'infantil') {
       return Infantil();
