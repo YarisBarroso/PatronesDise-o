@@ -10,7 +10,7 @@ class Fabrica {
             return Generica();
             }else{
               return Infantil();
-              
+            }
 
 abstract class Bicicleta {
   void pedaliar();
