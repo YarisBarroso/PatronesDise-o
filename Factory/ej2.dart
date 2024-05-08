@@ -28,10 +28,9 @@ class Generica implements Bicicleta {
   }
 }
 
-
-class Infantil implements Bicicleta{
+class Infantil implements Bicicleta {
   @override
-  void pedaliar(){
+  void pedaliar() {
     print('Bicicleta infantil en funcion');
   }
-  
+}
