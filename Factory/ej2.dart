@@ -30,3 +30,4 @@ class Generica implements Bicicleta {
 
 
 class Infantil implements Bicicleta{
+  @override
