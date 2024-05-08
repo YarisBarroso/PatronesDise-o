@@ -4,7 +4,7 @@ class Fabrica {
       return Deportiva();
     } else if (tipo == 'generica') {
       return Generica();
-    } else {
+    } else if (type == ' infantil ') {
       return Infantil();
     }
   }
