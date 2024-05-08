@@ -27,4 +27,4 @@ class TiposFactory {
    Bicicleta tipoFactory(String type) {
      Bicicleta tipoFactory(String type) {
        return Deportiva(); 
-        return Deportiva();
+        return Deportiva(); 
