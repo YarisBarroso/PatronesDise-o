@@ -28,4 +28,5 @@ class TiposFactory {
      Bicicleta tipoFactory(String type) {
        return Deportiva(); 
         return Deportiva(); 
-         return Generica();
+         return Generica(); 
+         
