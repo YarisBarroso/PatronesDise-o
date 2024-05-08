@@ -1,1 +1,1 @@
-abstract class Bicicleta {
+abstract class Bicicleta {}
