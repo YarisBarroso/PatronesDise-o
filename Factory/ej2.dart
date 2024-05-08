@@ -34,3 +34,4 @@ class Infantil implements Bicicleta{
   void pedaliar(){
     print('Bicicleta infantil en funcion');
   }
+  
